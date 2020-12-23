@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/categorias.css">
+    <title>Top 5 - Cuidado Covid</title>
+</head>
+
+<body>
+    <header class="contenedor">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/index.html"><strong>CUIDADO COVID</strong></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation" id="btn-menu" onclick="mostrarMenu()">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a href="/index.html" class="nav-link"><strong>Inicio 🏡</strong></a></li>
+                        <li class="nav-item"><a href="/categorias.html" class="nav-link"><strong>Paises más afectados 🔝</strong></a></li>
+                        <li class="nav-item"><a href="/contacto.html" class="nav-link"><strong>Contacto 📫</strong></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <br>
+    <div class="container">
+        <div class="row">
+            <p class="display-4 text-center">
+                <strong>
+                Paises más afectados 🔝
+                </strong>
+            </p>
+        </div>
+        <br>
+        <div class="row align-items-center">
+            <ul class="col-9 mx-auto">
+                <li class="card mb-3">
+                    <img src="/usa.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Estados Unidos 🇺🇸</h5>
+                        <p class="card-text">Estados Unidos se encuentra primero con 17.394.314 infectados hasta la
+                            fecha.</p>
+                    </div>
+                </li>
+                <li class="card mb-3">
+                    <img src="/india.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">India 🇮🇳</h5>
+                        <p class="card-text">India se encuentra segundo con 9.951.962 infectados hasta la fecha.</p>
+                    </div>
+                </li>
+                <li class="card mb-3">
+                    <img src="/brasil.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Brasil 🇧🇷</h5>
+                        <p class="card-text">Brasil se encuentra tercero con 7.042.695 infectados hasta la fecha.</p>
+                    </div>
+                </li>
+                <li class="card mb-3">
+                    <img src="/rusia.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Rusia 🇷🇺</h5>
+                        <p class="card-text">Rusia se encuentra cuarto con 2.762.668 infectados hasta la fecha.</p>
+                    </div>
+                </li>
+                <li class="card mb-3">
+                    <img src="/francia.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Francia 🇫🇷</h5>
+                        <p class="card-text">Francia se encuentra quinto con 2.409.062 infectados hasta la fecha.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    <footer class="footer bg-dark text-white">
+        <h3 class="mx-auto text-center">#CuidemonosEntreTodos</h3>
+        <br>
+        <p class="mx-auto my-0 text-center">📧 aless@digitalinteractivo.com</p>
+        <p class="mx-auto my-0 text-center">📞 3548 63 2170</p>
+    </footer>
+</body>
+<script defer>
+    function mostrarMenu() {
+        document.getElementById('navbarSupportedContent').classList.toggle('collapse');
+    }
+</script>
+
+</html>

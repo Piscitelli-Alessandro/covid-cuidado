@@ -1,0 +1,17 @@
+$footer-width: 100%;
+$footer-font-size: 1.20rem;
+
+// Operaciones matematicas con Sass
+footer{
+  box-sizing: border-box;
+  width: $footer-width;
+  padding: $footer-width * (0.05/2);
+
+  & p {
+    width: $footer-width * 0.75;
+    font-size: $footer-font-size * 0.75;
+  }
+  & h4{
+    font-size: $footer-font-size;
+  }
+}

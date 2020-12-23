@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-final-piscitelli",
+  "version": "1.0.0",
+  "description": "Proyecto final para el curso de Desarrollo Web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "covid",
+    "info"
+  ],
+  "author": "Alessandro Piscitelli",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.6"
+  }
+}
